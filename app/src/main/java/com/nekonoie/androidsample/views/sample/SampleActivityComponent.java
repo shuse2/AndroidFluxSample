@@ -6,6 +6,7 @@ import com.nekonoie.androidsample.app.SampleApplication;
 import com.nekonoie.androidsample.app.SampleApplicationComponent;
 import com.nekonoie.androidsample.app.SampleApplicationModule;
 import com.nekonoie.androidsample.di.PerActivity;
+import com.nekonoie.androidsample.views.sample.fragments.EditOrDeleteDialog;
 import com.nekonoie.androidsample.views.sample.fragments.SampleFragment;
 
 import dagger.Component;
@@ -28,6 +29,7 @@ public interface SampleActivityComponent {
 
     void inject(SampleActivity activity);
     void inject(SampleFragment fragment);
+    void inject(EditOrDeleteDialog editOrDeleteDialog);
 
     Activity activity();
 }

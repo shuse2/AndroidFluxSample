@@ -20,7 +20,7 @@ android {
 
     defaultConfig {
         applicationId "com.nekonoie.androidsample"
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
